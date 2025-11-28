@@ -11,7 +11,7 @@ Since this is a microservices app, you need to run 3 terminals at once.
 1. Start the Python AI Service
 
 cd ml-service
-# Activate venv if needed
+Activate venv if needed
 uvicorn main:app --reload --port 8000
 
 2. Start the Node Backend
