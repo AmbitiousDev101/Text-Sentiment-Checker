@@ -7,6 +7,7 @@ I built this project to demonstrate a **Microservices Architecture**. Instead of
 ## How to Run It Locally
 
 1. Start the Python AI Service
+
 ```bash
 cd ml-service
 # Windows:
@@ -14,14 +15,14 @@ cd ml-service
 # Mac/Linux:
 # source venv/bin/activate
 uvicorn main:app --reload --port 8000
+
 2. Start the Node Backend
-Bash
 
 cd server
 npm install
 node server.js
+
 3. Start the React Frontend
-Bash
 
 cd client
 npm install
