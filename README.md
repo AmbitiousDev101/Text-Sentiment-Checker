@@ -2,7 +2,7 @@
 
 **A full-stack web app that detects the sentiment of your text.**
 
-I built this project to demonstrate a **Microservices Architecture**. Instead of a standard monolithic app, I separated the system into three distinct parts: a modern frontend, an API gateway, and a dedicated AI engine.
+I built this project to demonstrate a **Microservices Architecture**. Instead of a standard app, I separated the system into three distinct parts: a modern frontend, an API gateway, and a dedicated AI engine.
 
 ## How to Run It Locally
 
