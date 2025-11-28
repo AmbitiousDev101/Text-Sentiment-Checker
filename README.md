@@ -6,21 +6,22 @@ I built this project to demonstrate a **Microservices Architecture**. Instead of
 
 ## How to Run It Locally
 
-Since this is a microservices app, you need to run 3 terminals at once.
-
 1. Start the Python AI Service
-
+```bash
 cd ml-service
-Activate venv if needed
+# Windows:
+.\venv\Scripts\activate
+# Mac/Linux:
+# source venv/bin/activate
 uvicorn main:app --reload --port 8000
-
 2. Start the Node Backend
+Bash
 
 cd server
 npm install
 node server.js
-
 3. Start the React Frontend
+Bash
 
 cd client
 npm install
